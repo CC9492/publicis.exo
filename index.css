@@ -1,0 +1,74 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  align-items: center;
+  padding: 10px 2%;
+}
+.menu {
+  display: flex;
+  flex: 1 1 50%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.menu a {
+  text-decoration: none;
+  padding: 0 80%;
+}
+
+.block {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block > div {
+  padding: 20px;
+  width: 30%;
+}
+
+.block .menu {
+  background-color: deepskyblue;
+  color: white;
+}
+
+.left-part-2 img {
+  height: 210px;
+}
+
+.block .left-part-1 .menu-1 {
+  border: solid black;
+}
+
+.menu-1 {
+  color: white;
+  padding: 20px;
+}
+
+.left-part-1 .MENU {
+  padding: 20px;
+}
+.left-part-2 {
+  padding: 20px;
+  margin: 10px;
+  border: solid;
+}
+
+.bouton a {
+  display: block;
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background: url(images/bouton-noir.png) no-repeat;
+  color: white;
+  text-decoration: cornflowerblue;
+}
+.bouton a:hover {
+  background: url(images/bouton-noir-2.png) no-repeat;
+}
